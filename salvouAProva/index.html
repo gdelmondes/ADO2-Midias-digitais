@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Eu tenho sorte...</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <script type="text/javascript" src="jogar.js"></script>
+</head>
+<body>
+    <h1> Eu tenho sorte </h1>
+    <hr>
+    <section>
+        <div class="container">
+            <div class="inline_element">
+                <img id="Die1" src="capa.png">
+                <h2 onClick="J1(R=Math.round(Math.random()*5)+1);" id="Jogador1">Jogador 1</h2>
+            </div>
+            <div class="inline_element">
+                <img id="Die2" src="capa.png">
+                <h2 onClick="J2(R=Math.round(Math.random()*5)+1);" id="Jogador2"></h2>
+            </div>
+        </div>
+        <br>
+        <h1 id="resultado">Resultado</h1>
+    </section>
+</body>
+</html>
