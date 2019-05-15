@@ -1,24 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Conta letras</title>
+    <title>Conta Letras</title>
     <link rel="stylesheet" type="text/css" href="style.css"/>
-    <script type="text/javascript" src="jogar.js"></script>
+    <script type="text/javascript" src="letras.js"></script>
 </head>
 <body>
     <h1> Contador de letras </h1>
     <hr>
     <section>
         <div class="container">
-            <div class="inline_element">
+            <input type="text" id="myText" value="Some text...">
+
+            <p>Clique em OK</p>
                 
-            </div>
-            <div class="inline_element">
-                
-            </div>
+            <button onclick="contaLetras()">Ok</button>
         </div>
         <br>
-        <h1 id="resultado">Resultado</h1>
+        <h1 id="resultado"></h1>
     </section>
 </body>
 </html>
